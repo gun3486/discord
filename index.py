@@ -24,7 +24,6 @@ async def callback():
 def between_callback():
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
-    loop.
     loop.run_until_complete(callback())
     loop.close()
 
